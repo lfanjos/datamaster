@@ -29,13 +29,22 @@ li {
   list-style: none;
 }
 
-nav > ul {
+#menuToggle > ul {
   display: flex;
-  width: 30%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
+#menuToggle input {
+  display: none;
+}
+
+#menuToggle {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
 .main-container {
   overflow: hidden;
 }

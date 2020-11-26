@@ -85,6 +85,23 @@
   #burger-mobile {
     display: block;
   }
+
+  #menuToggle > ul {
+    display: unset;
+    width: 200px;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  #menuToggle input {
+    display: unset;
+  }
+
+  #menuToggle {
+    display: unset;
+    width: unset;
+    align-items: unset;
+  }
   nav img {
     width: 150px;
   }
