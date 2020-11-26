@@ -41,6 +41,10 @@
   nav > ul {
     width: 50%;
   }
+
+  #menuToggle {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
