@@ -36,6 +36,10 @@ nav > ul {
   align-items: center;
 }
 
+.main-container {
+  overflow: hidden;
+}
+
 .btn {
   background-color: #0d479b;
   border-radius: 50px;
