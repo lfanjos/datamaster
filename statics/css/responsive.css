@@ -307,4 +307,9 @@
   #menuToggle input:checked ~ ul {
     transform: translate(-45%, 0);
   }
+
+  form label {
+    width: 100%;
+    text-align: center;
+  }
 }
