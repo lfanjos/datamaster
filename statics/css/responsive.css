@@ -1,0 +1,213 @@
+@media (max-width: 1440px) {
+  textarea {
+    width: 100%;
+  }
+
+  .tabcontent {
+    width: 800px;
+  }
+
+  .tabcontent p {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .top-section {
+    background-position: unset;
+  }
+
+  .top-section-text {
+    top: 40%;
+  }
+
+  .top-section-text h2 {
+    font-size: 54px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  form label {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.671);
+  }
+
+  nav > ul {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-section-text {
+    top: 30%;
+  }
+
+  .top-section-text h2 {
+    font-size: 35px;
+  }
+
+  .top-section-text .btn {
+    margin-top: 40px;
+  }
+
+  .top-section-text p {
+    width: 100%;
+  }
+
+  .solutions-card img,
+  .solutions-card:hover .background-hover-img {
+    width: 210px;
+    height: 327.16px;
+  }
+
+  .solutions-card:hover .background-hover-img,
+  .background-hover-img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-us-text .btn {
+    bottom: -5%;
+  }
+
+  form label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 690px) {
+  #burger-mobile {
+    display: block;
+  }
+  nav img {
+    width: 150px;
+  }
+
+  .top-section-text {
+    top: 20px;
+    transform: translate(-50%, 0);
+  }
+
+  .solutions-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .solutions-card {
+    font-size: 26px;
+    margin: 20px auto;
+  }
+
+  .solutions-card img,
+  .solutions-card:hover .background-hover-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .solutions-card:hover .background-hover-img {
+    height: 444px;
+  }
+
+  .top-section {
+    height: 400px;
+  }
+
+  .top-section-text {
+    width: 100%;
+  }
+
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-us img,
+  .about-us-text {
+    width: 100%;
+  }
+
+  .about-us-text {
+    margin-top: 20px;
+    height: 270px;
+  }
+
+  .tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab,
+  .tabcontent {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .why-us {
+    text-align: center;
+  }
+
+  .why-us p {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact-section-cards {
+    flex-direction: column;
+  }
+
+  .contact-card {
+    margin-top: 20px;
+  }
+
+  .contact-form h3 {
+    font-size: 40px;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  #message-label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  .social-links {
+    width: 160px;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .fa-bars {
+    transition: 0.5s;
+  }
+
+  nav .fa {
+    font-size: 30px;
+  }
+
+  nav > ul {
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    height: 00px; /* 300px */
+    right: -20px;
+    top: 36px;
+    z-index: 99;
+    transition: height 0.3s ease-out;
+  }
+}
