@@ -158,6 +158,7 @@ nav > ul {
 
 .tab {
   overflow: hidden;
+  margin-right: 40%;
 }
 
 .tab button {
@@ -341,6 +342,7 @@ textarea {
   resize: vertical;
   min-height: 100px;
   max-height: 300px;
+  width: 100%;
 }
 
 textarea:focus,
